@@ -2,8 +2,8 @@ import pymysql
 import random
 debug = True
 
-# mysql://user:password@host/db?reconnect=true
-db = pymysql.connect(host = 'us-cdbr-iron-east-05.cleardb.net', user = 'bcd13fd218388b', password = '2cb6b6c9', db = 'heroku_c725ae86619cb3a', autocommit = True, sql_mode = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION')
+# mysql://user:password@host/db?reconnect=true 
+db = pymysql.connect(host = 'us-cdbr-east-02.cleardb.com', user = 'b106286afdaf60', password = 'e98b49a7', db = 'heroku_64165d07dbcaba2', autocommit = True, sql_mode = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION')
 cur = db.cursor()
 cur.execute('set @@auto_increment_increment=1')
 
