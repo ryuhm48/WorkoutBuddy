@@ -12,7 +12,7 @@
 
 action_endpoint:
     #url: "http://localhost:5055/webhook"
-    url: "https://rasaactions1.herokuapp.com/webhook"
+    url: "https://actionsapp123123333.herokuapp.com/webhook"
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
